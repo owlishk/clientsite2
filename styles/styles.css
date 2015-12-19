@@ -1,0 +1,221 @@
+* {
+  font-family: "Arimo", sans-serif;
+  margin: 0;
+  padding: 0;
+} 
+
+h1, h2, h3 {
+  font-family: "Bitter", serif;
+  font-weight: bold;
+  margin: .6rem;
+}
+
+h2 a {
+  font-family: "Bitter", serif;
+  font-weight: bold;
+}
+
+header {
+  float: right;
+  height: 6.5rem;
+  width: 81%;
+}
+
+header img {
+  position: inherit;
+  float: right;
+  height: 4.5rem;
+  margin-top: -3rem;
+  margin-right: 3rem;
+}
+
+/*formatting "sticky" menu*/
+aside.menu {
+  float: left;
+  width: 18%;
+  text-align: left;
+}
+
+.menu {
+  position: fixed;
+  width: 18%;
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 3em;
+}
+
+.menu li {
+  font-size: 1em;
+  padding-left: 10px;
+  background-color: #85cd1c;
+  border-bottom-style: solid;
+  border-color: white;
+  border-width: .1em;
+  }
+
+.menu li a {
+  color: #F5F5DC;
+  text-decoration: none;
+}
+
+/*audio player*/
+.player {
+  margin: 1rem;
+  width: 60%;
+}
+
+section {
+  float: right;
+  width: 74%;
+  min-height: 100%;
+  background-color: #F5F5DC;
+  margin-bottom: 3rem;
+  margin-right: 3%;
+  text-align: left;
+  padding: 1rem;
+}
+
+.archery img {
+  width: 60%;
+  padding: 1rem;
+}
+
+p {
+  margin: 1rem;
+}
+
+/*increasing size of first letter to assist content separation.*/
+p:first-letter {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+
+
+
+
+/*Formatting the class schedule*/
+
+.bold {
+  font-weight: bold;
+}
+
+.class-id {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding-bottom: .3rem;
+}
+
+.class-name {
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.class-description {
+  margin-bottom: .2rem;
+  margin-left: 1rem;
+  padding-bottom: .3rem;
+}
+
+.cost {
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.schedule {
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.prereq {  
+  color: red;
+  text-decoration: none;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.private-lesson-package {
+  font-weight: bold;
+  text-decoration: underline;  
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.private-lesson-description { 
+  margin-left: 1rem;
+  margin-top: .2rem;
+  margin-bottom: .3rem;
+}
+
+/*Formatting contact information*/
+
+.contact div, address {
+  margin-left: 1rem;
+}
+
+.contact div {
+  font-weight: bold;
+}
+
+.contact {
+  line-height: 1.3rem;
+}
+
+/*Formatting footer*/
+
+footer {
+  clear: both;
+}
+
+footer li {
+  display: inline;
+  padding: 1rem;
+}
+
+footer ul {
+  margin-left: 41%;
+  padding-bottom: 2rem;
+}
+
+/*Instructor page section and div formatting*/
+
+header.instructor {
+  width: 100%;
+}
+
+header.instructor img {
+  margin-top: 1rem;
+  margin-right: 9.5%;
+}
+
+/*I want the link to be more vertically centered. I've tried every padding, margin, border, etc I can think of and nothing is working.*/
+header.instructor a {
+  margin-left: 9.5%;
+}
+
+section.instructor, div.instructor {
+  float: left;
+  width: 80%;
+  min-height: 100%;
+  background-color: #F5F5DC;
+  margin-left: 8.5%;
+  margin-bottom: 1rem;
+  text-align: left;
+  padding: 1rem;
+}
+
+div.instructor img {
+  width: 40%;
+  margin: 1rem;
+}
+
+div.instructor figcaption {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+  
+
